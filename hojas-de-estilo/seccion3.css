@@ -1,0 +1,31 @@
+.seccion3{
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contenedor-titulo{
+    width: 100%;
+    text-align: center;
+}
+.contenedor-principal{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    
+}
+.cont{
+    max-height: 200px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgc{
+    display: flex;
+    flex: 1;
+    width: max-content;
+    max-height: 75px;
+}
+

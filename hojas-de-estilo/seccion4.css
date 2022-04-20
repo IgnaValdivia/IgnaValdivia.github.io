@@ -1,0 +1,23 @@
+.seccion4{
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-tit-portfolio{
+    width: 100%;
+    text-align: center;
+}
+.contenedor-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    justify-self: center;
+    align-items: center;
+}
+.card{
+    max-height: 200px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
