@@ -1,23 +1,30 @@
 
     window.addEventListener('scroll', function()  {
 
-        let element = document.querySelectorAll('.card-fade');
-        for(let i=0; i < element.length;i++){
-
-            let altura = window.innerHeight/1.3;
-        
-            let distancia = element[i].getBoundingClientRect().top;
-            
-            element[i].classList.add('transform_left');
-    
-            if(distancia <= altura) {
-                element[i].classList.add('aparece');
+        let elementup = document.querySelectorAll('.card-fade-up');
+        for(let i=0; i < elementup.length;i++){
+            let altura;
+            if(elementup[i] == elementup[0]){
+                 altura = window.innerHeight/4;
             }else{
-                element[i].classList.remove('aparece');
+                 altura = window.innerHeight/1.1;
+            }
+            
+            let distancia = elementup[i].getBoundingClientRect().top;
+
+            if(elementup[i] == elementup[0]){
+                elementup[i].classList.add('transform_rigth');
+            }else{
+                elementup[i].classList.add('transform_up');
+            }
+            
+            if(distancia <= altura) {
+                elementup[i].classList.add('aparece');
+            }else{
+                elementup[i].classList.remove('aparece');
             }
         }
-        
-        
+           
     });
 
 
