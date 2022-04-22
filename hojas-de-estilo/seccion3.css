@@ -5,14 +5,43 @@
     
 }
 
-.contenedor-titulo{
+.titulo-habilidades,.titulo-otros{
     width: 100%;
     text-align: center;
 }
+.contenedor-habilidades{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.hab{
+    flex: 1 1;
+}
 .contenedor-principal{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
-    
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-hab{
+    display: flex;
+    flex-direction: row;
+}
+.contenedor-front,.contenedor-back{
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor-otros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .cont{
     max-height: 200px;
