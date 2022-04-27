@@ -2,7 +2,7 @@
     min-height: 30vh;
     display: flex;
     flex-direction: column;
-    
+    background-color: antiquewhite;
 }
 
 .titulo-habilidades,.titulo-otros{
@@ -57,4 +57,30 @@
     width: max-content;
     max-height: 75px;
 }
+.cont-linea-ve{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.linea-vertical{
+    background: linear-gradient(360deg,black,grey,white) ;
+    width: 2px;
+    height: 200px;
+}
+.cont-linea-ho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linea-horizontal{
+    background: radial-gradient(black,grey,white) ;
+    height: 2px;
+    width: 500px;
 
+}
+
+@media (max-width: 500px) { 
+    .linea-horizontal,.linea-vertical{
+        display: none;
+    }
+}

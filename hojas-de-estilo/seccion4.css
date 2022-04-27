@@ -2,19 +2,23 @@
     min-height: 30vh;
     display: flex;
     flex-direction: column;
+    background-color: blueviolet;
+    
 }
 .contenedor-tit-portfolio{
     width: 100%;
     text-align: center;
 }
 .contenedor-card{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
-    justify-self: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
 }
 .card{
-    max-height: 200px;
+    min-height: 50vh;
     max-width: 200px;
     display: flex;
     flex-direction: column;

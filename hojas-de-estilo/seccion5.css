@@ -1,0 +1,11 @@
+.seccion5{
+    width: 100%;
+    min-height: 500px;
+    background-color: bisque;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
