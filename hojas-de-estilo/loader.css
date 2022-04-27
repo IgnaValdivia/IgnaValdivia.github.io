@@ -42,7 +42,8 @@
 
 .loader {
     padding: 0;
-    background-color: black;
+    background:rgb(86, 83, 114);
+    opacity: 0.99;
     width: 100%;
     height: 100vh;
     display: flex;

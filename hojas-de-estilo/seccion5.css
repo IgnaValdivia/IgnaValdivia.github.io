@@ -3,32 +3,48 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    min-height: 500px;
-    background-color: bisque;
+    min-height: 100vh;
+    background-color: #B4C2D4;
 }
 
 .contenedor-contacto{
     flex: 1 1;
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 20px;
 }
 
 .contenido-contacto{
-    background-color: brown;
+    width: 500px;
+    height: 80px;
+}
+.contenido-contacto svg{
+    width: 20px;
+    height: 20px;
+    top: 1rem;
+    margin-right: 5px;
+}
+
+.contenido-redes{
     width: 500px;
     height: 100px;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contenido-redes img{
+    width: 50px;
+    height: 50px;
 }
 
 .contenedor-formulario{
     flex: 1 1;
     margin: 20px;
-    border: 1px solid black;
-    background-color: whitesmoke;
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -40,7 +56,7 @@
 }
 
 .formulario input,.formulario textarea{
-    width: 500px;
+    width: 400px;
     margin: 2px;
     border: 0;
     outline: none;
