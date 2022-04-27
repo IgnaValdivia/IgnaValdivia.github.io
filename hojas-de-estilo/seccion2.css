@@ -36,10 +36,10 @@
 }
 
 .transform_rigth {
-    transform: translateX(100%);
+    transform: translateX(20%);
 }
 .transform_up {
-    transform: translateY(100%);
+    transform: translateY(50%);
 }
 
 .aparece {
