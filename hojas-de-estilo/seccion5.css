@@ -8,12 +8,13 @@
 }
 
 .contenedor-contacto{
+    background-color: #99a8bd;
     flex: 1 1;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px;
-    box-shadow: 0 5px 10px ;
+    box-shadow: 0 5px 10px black;
     border-radius: 10px;
 }
 
