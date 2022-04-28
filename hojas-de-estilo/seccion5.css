@@ -12,12 +12,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
+    margin: 20px;
+    box-shadow: 0 5px 10px ;
+    border-radius: 10px;
 }
 
 .contenido-contacto{
     width: 500px;
     height: 80px;
+    margin-left: 20px;
 }
 .contenido-contacto svg{
     width: 20px;
@@ -45,7 +48,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .formulario{

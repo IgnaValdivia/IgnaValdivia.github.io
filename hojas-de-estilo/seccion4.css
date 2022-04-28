@@ -1,13 +1,93 @@
 .seccion4{
-    min-height: 30vh;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(23, 45, 173, 0.2);
+}
+
+.tarjeta{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+.cara{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.frente{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px black;
+}
+
+.frente img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.frente h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    background: rgba(0, 0, 0, .4);
+    text-align: center;
+}
+
+.detras{
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #f3f3f3;
     display: flex;
     flex-direction: column;
-    background-color: blueviolet;
-    
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px black;
 }
+.link{
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.link a{
+    color: #f3f3f3;
+}
+.link h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.detras p{
+    letter-spacing: 1px;
+}
+
+.tarjeta:hover .frente{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.tarjeta:hover .detras{
+    transform: perspective(600px) rotateY(360deg);
+}
+
+/*
 .contenedor-tit-portfolio{
     width: 100%;
     text-align: center;
+    font-size: 50px;
 }
 .contenedor-card{
     padding: 20px;
@@ -17,7 +97,16 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+
+
+
+
+
+
+
 .card{
+    margin: 2px;
     min-height: 50vh;
     max-width: 200px;
     display: flex;
@@ -25,3 +114,9 @@
     justify-content: center;
     align-items: center;
 }
+.card-texto{
+    flex: 1 1;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}*/
