@@ -10,6 +10,17 @@
     padding: 5px;
     position: relative;
 }
+@media only screen and (max-width:600px) {
+    .seccion1 {
+        background-color: #000208;
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap-reverse;
+        padding: 5px;
+    }
+}
 
 .bajar {
     position: absolute;

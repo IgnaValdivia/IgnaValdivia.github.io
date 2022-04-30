@@ -1,35 +1,53 @@
-.seccion2 {
-    background-color: cornflowerblue;
-    min-height: calc(100vh- 50px);
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Serif:ital@1&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Raleway:wght@200&family=Source+Sans+Pro:wght@200&display=swap');
 
-.descripcion2 {
+.seccion2 {
+    background-color: rgb(113, 142, 196);
     min-height: 100vh;
-    margin: 20px;
     display: flex;
     flex-direction: column;
-    flex: 1 1;
-    text-align: center;
+}
+.tit-sobre{
+    
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+
+}
+/*font-family: 'Merriweather', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+.descripcion2 {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    color: black;
+    height: 80vh;
+    margin: 5px 50px 10px 50px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-indent: 20px;
 }
 
-.cont-elemento-hoja {
-    display: flex;
-    flex: 1 1;
-    flex-direction: column;
-}
 
-.elemento-hoja-de-ruta {
-    background-color: white;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    min-height: 50px;
-    margin: 20px;
+.cv{
+    margin: 2px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px black;
+    transition: 2s all;
+    text-indent: 0px;
 }
-
+.cv:hover{
+    color: aliceblue;
+}
 
 .card-fade-up{
     opacity: 0;
