@@ -9,13 +9,14 @@ const maquinaEscribir = (text = '', etiqueta = '') => {
 
         if (i === arrayCaracteres.length) {
             //retroceso
-            etiqueta.innerHTML = text.substring(0, j)
+           /* etiqueta.innerHTML = text.substring(0, j)
             j--
             if (j === 0) {
                 etiqueta.innerHTML = ' '
                 i = 0
                 j = text.length
-            }
+                
+            }*/
         } else {
             //derecho
             etiqueta.innerHTML += arrayCaracteres[i]

@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Dancing+Script&family=EB+Garamond&family=Libre+Bodoni&family=Lobster&family=Roboto+Mono:wght@500&family=Roboto+Slab:wght@300&family=Square+Peg&family=Vollkorn:ital@1&family=Yanone+Kaffeesatz&display=swap');
+
 .seccion1 {
-    background-color:  #B3C2F2;
+    background-color: #B3C2F2;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -8,55 +10,75 @@
     padding: 5px;
     position: relative;
 }
-.bajar{
 
+.bajar {
     position: absolute;
     margin-top: 50px;
     bottom: 5px;
     left: calc(50% - 50px);
-
-
     animation: bajando 2s infinite 0s alternate-reverse;
     animation: name duration timing-function delay iteration-count direction fill-mode;
 }
-svg{
+
+svg {
     width: 100px;
     height: 100px;
 }
-@keyframes bajando{
-    0%{
+
+@keyframes bajando {
+    0% {
         transform: translateY(10%);
     }
-    100%{
+
+    100% {
         transform: translateY(-20%);
     }
 }
 
 .contenedor-texto {
     flex: 1 1;
-    
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-.contenedor-tit{
+
+.contenedor-tit {
+    width: 100%;
     flex: 1 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
 }
 
-.titulo {
-    font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.titulo1 {
+    text-align: start;
+    font-size: 80px;
+    font-family: 'Square Peg', cursive;
     color: black;
-    margin: 10px;
-    padding: 5px;
+    margin: 0 0 0 10px;
 }
-
+.titulo2{
+    text-align: center;
+    color: black;
+    font-size: 100px;
+    font-family: 'Square Peg', cursive;
+}
+/*font-family: 'Chakra Petch', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Libre Bodoni', serif;--
+font-family: 'Lobster', cursive;--
+font-family: 'Roboto Mono', monospace;--
+font-family: 'Roboto Slab', serif;
+font-family: 'Square Peg', cursive;--
+font-family: 'Vollkorn', serif;--
+font-family: 'Yanone Kaffeesatz', sans-serif;*/
 .cont-desc {
+
+    font-family: 'Chakra Petch', sans-serif;
     flex: 1 1;
     display: flex;
     justify-content: flex-start;
@@ -65,8 +87,7 @@ svg{
 }
 
 .desc {
-
-    margin-bottom: 200px;
+    margin: 10px 0 100px 25px;
     font-size: 2.2em;
     max-height: 2em;
     min-height: 1.8em;
