@@ -10,17 +10,6 @@
     padding: 5px;
     position: relative;
 }
-@media only screen and (max-width:600px) {
-    .seccion1 {
-        background-color: #000208;
-        width: 100vw;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column-reverse;
-        flex-wrap: wrap-reverse;
-        padding: 5px;
-    }
-}
 
 .bajar {
     position: absolute;
@@ -118,4 +107,104 @@ font-family: 'Yanone Kaffeesatz', sans-serif;*/
     height: 300px;
     border-radius: 50%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/*Responsive para celulares*/
+@media only screen and (max-width:600px) {
+    .seccion1 {
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap-reverse;
+        padding: 5px;
+    }
+    .bajar {
+        position: absolute;
+        margin-top: 50px;
+        bottom: 5px;
+        left: calc(50% - 50px);
+        animation: bajando 2s infinite 0s alternate-reverse;
+        animation: name duration timing-function delay iteration-count direction fill-mode;
+    }
+    
+    svg {
+        width: 100px;
+        height: 100px;
+    }
+    
+    
+    .contenedor-texto {
+        flex: 1 1;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .contenedor-tit {
+        width: 100%;
+        flex: 1 1;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    
+    .titulo1 {
+        text-align: start;
+        font-size: 80px;
+        font-family: 'Square Peg', cursive;
+        color: black;
+        margin: 0 0 0 10px;
+    }
+    .titulo2{
+        text-align: center;
+        color: black;
+        font-size: 100px;
+        font-family: 'Square Peg', cursive;
+    }
+    /*font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Libre Bodoni', serif;--
+    font-family: 'Lobster', cursive;--
+    font-family: 'Roboto Mono', monospace;--
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Square Peg', cursive;--
+    font-family: 'Vollkorn', serif;--
+    font-family: 'Yanone Kaffeesatz', sans-serif;*/
+    .cont-desc {
+    
+        font-family: 'Chakra Petch', sans-serif;
+        flex: 1 1;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .desc {
+        margin: 10px 0 100px 25px;
+        font-size: 2.2em;
+        max-height: 2em;
+        min-height: 1.8em;
+        border-right: 2px solid black;
+    }
+    
+    .contenedor-img {
+        min-width: 100px;
+        flex: 1 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .imagen {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
 }

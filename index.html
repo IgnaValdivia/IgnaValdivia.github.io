@@ -43,7 +43,7 @@
           />
         </svg>
       </div>
-      <div class="contenedor-texto ">
+      <div class="contenedor-texto">
         <div class="contenedor-tit">
           <p class="titulo1">Hola, soy</p>
           <p class="titulo2">Igna Valdivia!</p>
@@ -52,9 +52,9 @@
           <p class="desc" id="desc">Desarrollador Web Full Stack</p>
         </div>
       </div>
-      <div class="contenedor-img ">
+      <div class="contenedor-img">
         <img
-          class="imagen "
+          class="imagen"
           src="./imagenes/imgseccion1.jpg"
           alt="Imagen Igna"
         />
@@ -83,16 +83,20 @@
           Busco formar parte de un proyecto en el que pueda demostrar de que soy
           capaz y dejar mi marca en la web.
         </p>
-        <a download="CV Valdivia Ignacio" href="./archivos/CV Valdivia.pdf" class="cv">Descargar CV</a>
+        <a
+          download="CV Valdivia Ignacio"
+          href="./archivos/CV Valdivia.pdf"
+          class="cv"
+          >Descargar CV</a
+        >
       </div>
-      
     </section>
 
     <section id="seccion3" class="seccion3">
+      <div class="titulo-hab">
+        <h2>Habilidades</h2>
+      </div>
       <div class="cont-hab">
-        <div class="titulo-hab">
-          <h2>Habilidades</h2>
-        </div>
         <div class="contenedor-hab">
           <div class="hab-fbo">
             <p>Frontend</p>
@@ -189,64 +193,71 @@
     </section>
 
     <section id="seccion4" class="seccion4">
-      <div class="tarjeta">
-        <div class="cara frente">
-          <img src="./imagenes/sist.jpg" alt="" />
-          <h3>Sistema Clientes</h3>
-        </div>
-        <div class="cara detras">
-          <h3>Descripción</h3>
-          <p>
-            Sistema de administración, visualización y registro de clientes de tienda de deportes.
-            Realizado con JPA y MySql
-          </p>
-          <div class="link">
-            <a href="#">Repositorio Github</a>
+      <div class="cont-pro">
+        <p>Mis proyectos</p>
+      </div>
+      <div class="cont-tarj">
+        <div class="tarjeta">
+          <div class="cara frente">
+            <img src="./imagenes/sist.jpg" alt="" />
+            <h3>Sistema Clientes</h3>
+          </div>
+          <div class="cara detras">
+            <h3>Descripción</h3>
+            <p>
+              Sistema de administración, visualización y registro de clientes de
+              tienda de deportes. Realizado con JPA y MySql
+            </p>
+            <div class="link">
+              <a href="#">Repositorio Github</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="tarjeta">
-        <div class="cara frente">
-          <img src="./imagenes/fondo-proyecto.jpg" alt="" />
-          <h3>Pagina Tareas</h3>
-        </div>
-        <div class="cara detras">
-          <h3>Descripción</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            facere minus saepe quod nisi totam sint porro vero dignissimos
-            distinctio?
-          </p>
-          <div class="link">
-            <a href="#">Link</a>
+        <div class="tarjeta">
+          <div class="cara frente">
+            <img src="./imagenes/fondo-proyecto.jpg" alt="" />
+            <h3>Pagina Tareas</h3>
+          </div>
+          <div class="cara detras">
+            <h3>Descripción</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam facere minus saepe quod nisi totam sint porro vero
+              dignissimos distinctio?
+            </p>
+            <div class="link">
+              <a href="#">Link</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="tarjeta">
-        <div class="cara frente">
-          <img src="./imagenes/fondo-proyecto.jpg" alt="" />
-          <h3>Pagina Web</h3>
-        </div>
-        <div class="cara detras">
-          <h3>Descripción</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            facere minus saepe quod nisi totam sint porro vero dignissimos
-            distinctio?
-          </p>
-          <div class="link">
-            <a href="#">Link</a>
+        <div class="tarjeta">
+          <div class="cara frente">
+            <img src="./imagenes/fondo-proyecto.jpg" alt="" />
+            <h3>Pagina Web</h3>
+          </div>
+          <div class="cara detras">
+            <h3>Descripción</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam facere minus saepe quod nisi totam sint porro vero
+              dignissimos distinctio?
+            </p>
+            <div class="link">
+              <a href="#">Link</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section id="seccion5" class="seccion5">
+      <div class="tit-contacto">
+        <p>Contacto</p>
+      </div>
       <div class="contenedor-contacto">
         <div class="contacto">
-          <p>Contacto</p>
           <div class="contenido-contacto">
-            <p>Telefono</p>
+            <p class="tit-sec-con">Telefono</p>
             <p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -262,7 +273,7 @@
             </p>
           </div>
           <div class="contenido-contacto">
-            <p>Email</p>
+            <p class="tit-sec-con">Email</p>
             <p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -278,7 +289,7 @@
             </p>
           </div>
           <div class="contenido-contacto">
-            <p>Ubicación</p>
+            <p class="tit-sec-con">Ubicación</p>
             <p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -333,8 +344,9 @@
             rows="5"
             placeholder="Escribe tu mensaje aqui..."
           ></textarea>
-
-          <button type="submit" class="">Abrir Email</button>
+          <div class="cont-bot">
+            <button type="submit">Abrir Email</button>
+          </div>
         </form>
       </div>
       <a href="" id="mail"></a>

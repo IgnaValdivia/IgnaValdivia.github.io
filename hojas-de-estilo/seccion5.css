@@ -6,6 +6,15 @@
     min-height: 100vh;
     background-color: #B4C2D4;
 }
+.tit-contacto{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    margin:5px 0 20px 40px;
+    font-size: 40px;
+    font-family: ;
+    text-align: start;
+}
 
 .contenedor-contacto{
     background-color: #99a8bd;
@@ -13,25 +22,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 5px 20px 5px 40px;
     box-shadow: 0 5px 10px black;
     border-radius: 10px;
 }
 
 .contenido-contacto{
-    width: 500px;
+    border: 1px solid blue;
+    width: 100%;
     height: 80px;
-    margin-left: 20px;
 }
+.contacto{
+    border: 1px solid green;
+    width: 100%;
+    min-width: 250px;
+}
+
 .contenido-contacto svg{
     width: 20px;
     height: 20px;
     top: 1rem;
     margin-right: 5px;
+    margin-left: 15px;
 }
-
+.tit-sec-con{
+    margin: 5px;
+}
 .contenido-redes{
-    width: 500px;
+    border: 1px solid red;
+    width: 100%;
     height: 100px;
     display: flex;
     flex-direction: row;
@@ -44,7 +63,9 @@
 }
 
 .contenedor-formulario{
+    border: 1px solid blue;
     flex: 1 1;
+    width: 100%;
     margin: 20px;
     display: flex;
     justify-content: center;
@@ -52,6 +73,9 @@
 }
 
 .formulario{
+    border: 1px solid green;
+    width: 100%;
+    min-width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -59,14 +83,25 @@
 }
 
 .formulario input,.formulario textarea{
-    width: 400px;
-    margin: 2px;
+    width: 100%;
+    margin: 0px 0px 5px 10px;
     border: 0;
     outline: none;
     background: transparent;
     border-bottom: 2px solid black;
 }
+.cont-bot{
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .formulario button{
-    margin-top: 10px;
+    background-color: #99a8bd;
+    border: 0;
+    min-width: 25%;
+    margin: 10px;
     border-radius: 5px;
+    box-shadow: 0 5px 10px black;
 }
