@@ -108,6 +108,11 @@ svg {
         flex-wrap: wrap-reverse;
     }
 
+    .bajar {
+        margin-top: 20px;
+        left: calc(50%-40px);
+    }
+
     svg {
         width: 80px;
         height: 80px;
@@ -126,7 +131,7 @@ svg {
     }
 
     .desc {
-        margin-left: 10px;
+        margin: 10px 25px 100px 25px;
         font-size: 22px;
         height: 20px;
     }
