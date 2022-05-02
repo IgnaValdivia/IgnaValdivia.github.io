@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Dancing+Script&family=EB+Garamond&family=Libre+Bodoni&family=Lobster&family=Roboto+Mono:wght@500&family=Roboto+Slab:wght@300&family=Square+Peg&family=Vollkorn:ital@1&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Square+Peg&display=swap');
 
 .seccion1 {
     background-color: #B3C2F2;
@@ -59,22 +59,14 @@ svg {
     color: black;
     margin: 0 0 0 10px;
 }
-.titulo2{
+
+.titulo2 {
     text-align: center;
     color: black;
     font-size: 100px;
     font-family: 'Square Peg', cursive;
 }
-/*font-family: 'Chakra Petch', sans-serif;
-font-family: 'Dancing Script', cursive;
-font-family: 'EB Garamond', serif;
-font-family: 'Libre Bodoni', serif;--
-font-family: 'Lobster', cursive;--
-font-family: 'Roboto Mono', monospace;--
-font-family: 'Roboto Slab', serif;
-font-family: 'Square Peg', cursive;--
-font-family: 'Vollkorn', serif;--
-font-family: 'Yanone Kaffeesatz', sans-serif;*/
+
 .cont-desc {
 
     font-family: 'Chakra Petch', sans-serif;
@@ -115,24 +107,30 @@ font-family: 'Yanone Kaffeesatz', sans-serif;*/
         flex-direction: column-reverse;
         flex-wrap: wrap-reverse;
     }
+
     svg {
         width: 80px;
         height: 80px;
     }
+
     .contenedor-tit {
         margin-bottom: 10px;
     }
-    
+
     .titulo1 {
         font-size: 55px;
     }
-    .titulo2{
+
+    .titulo2 {
         font-size: 70px;
     }
+
     .desc {
-        font-size: 25px;
+        margin-left: 10px;
+        font-size: 22px;
         height: 20px;
     }
+
     .imagen {
         width: 225px;
         height: 225px;
