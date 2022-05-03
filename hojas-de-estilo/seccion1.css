@@ -106,11 +106,15 @@ svg {
         display: flex;
         flex-direction: column-reverse;
         flex-wrap: wrap-reverse;
+        position: none;
     }
 
     .bajar {
         margin-top: 20px;
-        left: calc(50%-40px);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        left: 0;
     }
 
     svg {
