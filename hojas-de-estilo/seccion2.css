@@ -2,21 +2,12 @@
 
 .seccion2 {
     background-color: rgb(113, 142, 196);
-    min-height: 100vh;
+    min-height: 102vh;
     display: flex;
     flex-direction: column;
 }
 
-.tit-sobre {
 
-    width: calc(100%-25px);
-    height: 20%;
-    text-align: start;
-    margin: 10px 0 0 25px;
-    font-size: 30px;
-    font-family: 'Merriweather', serif;
-
-}
 
 /*font-family: 'Merriweather', serif;
 font-family: 'Noto Serif', serif;
@@ -24,9 +15,8 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;*/
-.descripcion2 {
-    font-size: 20px;
-    font-family: 'Merriweather', serif;
+#descripcion2{
+    font-size: 25px;
     color: black;
     height: 80vh;
     margin: 5px 50px 10px 50px;
@@ -35,14 +25,8 @@ font-family: 'Source Sans Pro', sans-serif;*/
     justify-content: center;
     align-items: center;
     text-indent: 20px;
-
 }
 
-.descripcion2 p {
-
-    width: 100%;
-    height: 100%;
-}
 
 .cv {
     margin: 2px;
@@ -76,15 +60,17 @@ font-family: 'Source Sans Pro', sans-serif;*/
 /*Seccion2 Responsive Celulares*/
 @media only screen and (max-width:600px) {
 
-    .tit-sobre {
-        height: 20%;
-        font-size: 20px;
-    }
-
-    .descripcion2 {
+    #descripcion2 {
         text-align: center;
-        font-size: 13px;
-        margin: 5px;
+        margin: 5px 10px 5px 10px;
+        width: calc(100%-10px);
     }
-
+    #descripcion2 p{
+        font-size: 15px;
+        width: 100%;
+        height: 33%;
+    }
+    #descripcion2 a{
+        font-size: 13px;
+    }
 }

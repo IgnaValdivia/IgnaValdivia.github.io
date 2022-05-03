@@ -1,4 +1,4 @@
-.seccion5{
+.seccion5 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -6,47 +6,41 @@
     min-height: 100vh;
     background-color: #B4C2D4;
 }
-.tit-contacto{
 
-    width: 100%;
-    height: 50px;
-    margin:5px 0 20px 40px;
-    font-size: 40px;
-    font-family: ;
-    text-align: start;
-}
-
-.contenedor-contacto{
+.contenedor-contacto {
     background-color: #99a8bd;
     flex: 1 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px 20px 5px 20px;
+    margin: 5px 20px 20px 20px;
     box-shadow: 0 5px 10px black;
     border-radius: 10px;
 }
 
-.contenido-contacto{
+.contenido-contacto {
     width: 100%;
     height: 80px;
 }
-.contacto{
+
+.contacto {
     width: 100%;
     min-width: 250px;
 }
 
-.contenido-contacto svg{
+.contenido-contacto svg {
     width: 20px;
     height: 20px;
     top: 1rem;
     margin-right: 5px;
     margin-left: 15px;
 }
-.tit-sec-con{
+
+.tit-sec-con {
     margin: 5px;
 }
-.contenido-redes{
+
+.contenido-redes {
     width: 100%;
     height: 100px;
     display: flex;
@@ -54,12 +48,13 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.contenido-redes img{
+
+.contenido-redes svg {
     width: 50px;
     height: 50px;
 }
 
-.contenedor-formulario{
+.contenedor-formulario {
     flex: 1 1;
     width: 100%;
     margin: 20px;
@@ -68,17 +63,18 @@
     align-items: center;
 }
 
-.formulario{
+.formulario {
     width: 100%;
     min-width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-   
+
 
 }
 
-.formulario input,.formulario textarea{
+.formulario input,
+.formulario textarea {
     width: 100%;
     margin: 0px 0px 5px 10px;
     border: 0;
@@ -86,13 +82,15 @@
     background: transparent;
     border-bottom: 2px solid black;
 }
-.cont-bot{
+
+.cont-bot {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.formulario button{
+
+.formulario button {
     background-color: #99a8bd;
     border: 0;
     width: 75px;
@@ -101,7 +99,8 @@
     border-radius: 5px;
     box-shadow: 0 5px 10px #7988a0;
 }
-.formulario button svg{
+
+.formulario button svg {
     width: 100%;
     height: 100%;
 }

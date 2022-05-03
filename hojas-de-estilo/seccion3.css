@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Caveat:wght@600&family=Courgette&family=Indie+Flower&family=Kaushan+Script&display=swap');
 .seccion3 {
     min-height: 100vh;
     display: flex;
@@ -5,19 +6,6 @@
     justify-content: center;
     align-items: center;
     background-color: antiquewhite;
-}
-
-.titulo-hab {
-    width: 100%;
-    height: 50px;
-    margin: 5px 0 20px 0;
-    font-size: 40px;
-    font-family: ;
-    text-align: start;
-}
-
-.titulo-hab p {
-    margin: 0 0 10px 20px;
 }
 
 .cont-hab {
@@ -49,6 +37,21 @@
 
 .hab-fbo:hover {
     box-shadow: 0 5px 10px rgb(182, 171, 156);
+}
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Kaushan Script', cursive;
+*/
+
+.hab-fbo p{
+    
+}
+.hab-fbo h4{
+    
 }
 
 .hab-fbo img {
