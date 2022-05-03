@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Noto+Serif:ital@1&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Raleway:wght@200&family=Source+Sans+Pro:wght@200&display=swap');
 
 .seccion2 {
-    background-color: rgb(113, 142, 196);
+    background-color: #7A85AD;
     min-height: 102vh;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@ font-family: 'Source Sans Pro', sans-serif;*/
     text-decoration: none;
     color: black;
     border-radius: 10px;
-    box-shadow: 0 5px 10px black;
+    box-shadow: 0 5px 10px rgb(180, 220, 243);
     transition: 2s all;
     text-indent: 0px;
 }
