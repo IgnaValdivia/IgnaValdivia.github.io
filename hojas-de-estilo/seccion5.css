@@ -105,5 +105,5 @@
     height: 100%;
 }
 .color-place, .fuente-general::placeholder{
-    color: rgb(180, 220, 243);
+    color:rgb(180, 220, 243) ;
 }
